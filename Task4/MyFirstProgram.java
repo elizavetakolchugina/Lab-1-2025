@@ -6,7 +6,7 @@ class MyFirstClass {
 			for(j = 1; j <= 8; j++) {
 				o.setFirstNumber(i);
 				o.setSecondNumber(j);
-				System.out.print(o.addition());
+				System.out.print(o.multiplication());
 				System.out.print(" ");
 			}
 			System.out.println();
@@ -32,7 +32,7 @@ class MySecondClass {
 		this.firstNumber = firstNumber;
 		this.secondNumber = secondNumber;
 	}
-	public int addition(){
+	public int multiplication(){
 		return firstNumber * secondNumber;
 	}
 }

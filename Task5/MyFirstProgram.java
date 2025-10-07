@@ -7,7 +7,7 @@ class MyFirstClass {
 			for(j = 1; j <= 8; j++) {
 				o.setFirstNumber(i);
 				o.setSecondNumber(j);
-				System.out.print(o.addition());
+				System.out.print(o.multiplication());
 				System.out.print(" ");
 			}
 			System.out.println();

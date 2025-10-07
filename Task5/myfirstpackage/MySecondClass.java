@@ -19,7 +19,7 @@ public class MySecondClass {
 		this.firstNumber = firstNumber;
 		this.secondNumber = secondNumber;
 	}
-	public int addition(){
+	public int multiplication(){
 		return firstNumber * secondNumber;
 	}
 }
